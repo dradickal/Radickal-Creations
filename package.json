@@ -1,0 +1,32 @@
+{
+  "name": "radickal-creation",
+  "version": "2.0.0",
+  "description": "radickalcreations.com code base",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlhint": "^0.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "pug": "^2.0.0-beta9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dradickal/Radickal-Creations.git"
+  },
+  "author": "David Radick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dradickal/Radickal-Creations/issues"
+  },
+  "homepage": "https://github.com/dradickal/Radickal-Creations#readme"
+}
