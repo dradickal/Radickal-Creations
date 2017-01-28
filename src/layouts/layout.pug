@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        meta()
+        title model.title
+        block styles
+
+        block scripts
+    body.flex-container
+        header.header-fixed
+            img.logo(src=model.logo.src; alt=model.logo.altText;)
+            
+            block header.nav
+
+        content
+            div.hero
+
+            div#skills
+                #forEach topic in model.topics
+                    #loop-index
+                    #topic-partial
+                    #highlight[loop-index]-partial
