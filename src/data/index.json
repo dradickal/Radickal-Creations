@@ -1,0 +1,43 @@
+{
+    "title": "Radickal Creations",
+    "logo": {
+        "src": "#",
+        "altText": "RKC - Radickal Creations"
+    },
+    "topics": [
+        {
+            "name": "Languages and Software",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "logo": {
+                        "src": "#",
+                        "altText": "HTML Icon"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "New Topic",
+            "skills": [
+                {
+                    "name": "Umbraco",
+                    "logo": {
+                        "src": "#",
+                        "altText": "Umbraco Icon"
+                    }
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        {
+            "name": "Objective",
+            "text": "My Objective Highlight"
+        },
+        {
+            "name": "New Highlight",
+            "text": "My New Highlight"
+        }
+    ]
+}
