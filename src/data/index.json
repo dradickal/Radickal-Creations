@@ -227,11 +227,15 @@
     "highlights": [
         {
             "name": "Objective",
-            "text": "My Objective Highlight"
+            "text": "To play an integral part in a well-structured team that will challenge me to expand my knowledge and experience in front-end environments. I am looking to grow my skills with tools such as SASS, MVC/MVVM frameworks, and node.js."
         },
         {
-            "name": "New Highlight",
-            "text": "My New Highlight"
+            "name": "IE Bug",
+            "text": "While using javascript to manipulate a select input, I discovered the incorrect DOM Element was being returned from Internet Explorer. Microsoft <a href='https://t.co/vaS8INJ4Pa'>confirmed my results</a> and implemented a fix in thier next update of IE Edge."
+        },
+        {
+            "name": "Udemy Training",
+            "text": "Learning can never stop when you are a developer. I enjoy using Udemy to learn new skills, and have completed the following courses over the past year: <ul><li>JavaScript: Understanding the Weird Parts – Anthony Alicea</li><li>AngularJS for the Real World, by Alessandro Russo</li><li>AngularJS Jumpstart, by Dan Wahlin</li>"
         }
     ]
 }
