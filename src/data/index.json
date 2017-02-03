@@ -11,14 +11,14 @@
                 {
                     "name": "HTML",
                     "logo": {
-                        "src": "/images/HTML5_logo.svg",
+                        "src": "/images/HTML5_Logo.svg",
                         "altText": "HTML Icon"
                     }
                 },
                 {
                     "name": "CSS",
                     "logo": {
-                        "src": "/images/CSS3_logo.svg",
+                        "src": "/images/CSS3_Logo.svg",
                         "altText": "CSS Icon"
                     }
                 },
@@ -79,14 +79,14 @@
                 {
                     "name": "SASS",
                     "logo": {
-                        "src": "/images/Sass_Logo_color.svg",
+                        "src": "/images/Sass_Logo_Color.svg",
                         "altText": "SASS Icon"
                     }
                 },
                 {
                     "name": "Bootstrap",
                     "logo": {
-                        "src": "/images/Bootstrap_logo.svg",
+                        "src": "/images/Bootstrap_Logo.svg",
                         "altText": "Bootsratp Icon"
                     }
                 },
@@ -114,7 +114,7 @@
                 {
                     "name": "Laravel",
                     "logo": {
-                        "src": "/images/Laravel-seeklogo.com.svg",
+                        "src": "/images/laravel-seeklogo.com.svg",
                         "altText": "Laravel Icon"
                     }
                 },
@@ -135,7 +135,7 @@
                 {
                     "name": "Blade",
                     "logo": {
-                        "src": "/images/Laravel-seeklogo.com.svg",
+                        "src": "/images/laravel-seeklogo.com.svg",
                         "altText": "Laravel Icon"
                     }
                 },
@@ -161,7 +161,7 @@
                 {
                     "name": "git",
                     "logo": {
-                        "src": "/images/git_icon.svg",
+                        "src": "/images/Git_icon.svg",
                         "altText": "git Icon"
                     }
                 },
@@ -175,7 +175,7 @@
                 {
                     "name": "Google Maps",
                     "logo": {
-                        "src": "/images/google_maps_logo.svg",
+                        "src": "/images/Google_Maps_Logo.svg",
                         "altText": "Google Maps Icon"
                     }
                 },
