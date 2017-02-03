@@ -11,20 +11,214 @@
                 {
                     "name": "HTML",
                     "logo": {
-                        "src": "#",
+                        "src": "/images/HTML5_logo.svg",
                         "altText": "HTML Icon"
+                    }
+                },
+                {
+                    "name": "CSS",
+                    "logo": {
+                        "src": "/images/CSS3_logo.svg",
+                        "altText": "CSS Icon"
+                    }
+                },
+                {
+                    "name": "JavaScript",
+                    "logo": {
+                        "src": "/images/js.svg",
+                        "altText": "JavaScript Icon"
+                    }
+                },
+                {
+                    "name": "XML",
+                    "logo": {
+                        "src": "/images/xml.svg",
+                        "altText": "XML Icon"
+                    }
+                },
+                {
+                    "name": "Photoshop",
+                    "logo": {
+                        "src": "/images/Adobe_Photoshop_CC_icon.svg",
+                        "altText": "Photoshop Icon"
+                    }
+                },
+                {
+                    "name": "Illustrator",
+                    "logo": {
+                        "src": "/images/Adobe_Illustrator_CC_icon.svg",
+                        "altText": "Illustrator Icon"
+                    }
+                },
+                {
+                    "name": "PHP",
+                    "logo": {
+                        "src": "/images/PHP-logo.svg",
+                        "altText": "PHP Icon"
+                    }
+                },
+                {
+                    "name": "SQL",
+                    "logo": {
+                        "src": "/images/database.svg",
+                        "altText": "SQL Icon"
+                    }
+                },
+                {
+                    "name": ".NET/C#",
+                    "logo": {
+                        "src": "/images/csharp.svg",
+                        "altText": "C Sharp Icon"
                     }
                 }
             ]
         },
         {
-            "name": "New Topic",
+            "name": "Frameworks and Templating",
             "skills": [
+                {
+                    "name": "SASS",
+                    "logo": {
+                        "src": "/images/Sass_Logo_color.svg",
+                        "altText": "SASS Icon"
+                    }
+                },
+                {
+                    "name": "Bootstrap",
+                    "logo": {
+                        "src": "/images/Bootstrap_logo.svg",
+                        "altText": "Bootsratp Icon"
+                    }
+                },
+                {
+                    "name": "jQuery",
+                    "logo": {
+                        "src": "/images/JQuery_logo.svg",
+                        "altText": "SASS Icon"
+                    }
+                },
+                {
+                    "name": "AngularJS 1.x",
+                    "logo": {
+                        "src": "/images/angular.svg",
+                        "altText": "AngularJS Icon"
+                    }
+                },
+                {
+                    "name": "node.js",
+                    "logo": {
+                        "src": "/images/Node.js_logo.svg",
+                        "altText": "node.js Icon"
+                    }
+                },
+                {
+                    "name": "Laravel",
+                    "logo": {
+                        "src": "/images/Laravel-seeklogo.com.svg",
+                        "altText": "Laravel Icon"
+                    }
+                },
+                {
+                    "name": "XSLT",
+                    "logo": {
+                        "src": "/images/xml.svg",
+                        "altText": "XML Icon"
+                    }
+                },
+                {
+                    "name": "Razor",
+                    "logo": {
+                        "src": "/images/csharp.svg",
+                        "altText": "C Sharp Icon"
+                    }
+                },
+                {
+                    "name": "Blade",
+                    "logo": {
+                        "src": "/images/Laravel-seeklogo.com.svg",
+                        "altText": "Laravel Icon"
+                    }
+                },
+                {
+                    "name": "Pug (fka. Jade)",
+                    "logo": {
+                        "src": "/images/pug-js.svg",
+                        "altText": "Pug Icon"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tools, API's and Content Management",
+            "skills": [
+                {
+                    "name": "Gulp",
+                    "logo": {
+                        "src": "/images/gulp.svg",
+                        "altText": "Gulp Icon"
+                    }
+                },
+                {
+                    "name": "git",
+                    "logo": {
+                        "src": "/images/git_icon.svg",
+                        "altText": "git Icon"
+                    }
+                },
+                {
+                    "name": "VSTS",
+                    "logo": {
+                        "src": "/images/brand-visualstudio.svg",
+                        "altText": "Visual Studio Icon"
+                    }
+                },
+                {
+                    "name": "Google Maps",
+                    "logo": {
+                        "src": "/images/google_maps_logo.svg",
+                        "altText": "Google Maps Icon"
+                    }
+                },
+                {
+                    "name": "JW Player",
+                    "logo": {
+                        "src": "/images/jw-player.svg",
+                        "altText": "JW Player Icon"
+                    }
+                },
+                {
+                    "name": "SCORM 1.2",
+                    "logo": {
+                        "src": "/images/SCORM.svg",
+                        "altText": "SCORM Icon"
+                    }
+                },
+                {
+                    "name": "Amazon S3",
+                    "logo": {
+                        "src": "/images/Storage_AmazonS3.svg",
+                        "altText": "Amazon S3 Icon"
+                    }
+                },
+                {
+                    "name": "Amazon Cloudfront",
+                    "logo": {
+                        "src": "/images/NetworkingContentDelivery_AmazonCloudFront.svg",
+                        "altText": "Amazon Cloudfront Icon"
+                    }
+                },
                 {
                     "name": "Umbraco",
                     "logo": {
-                        "src": "#",
+                        "src": "/images/logo-umbraco-rocket.svg",
                         "altText": "Umbraco Icon"
+                    }
+                },
+                {
+                    "name": "Sitefinity",
+                    "logo": {
+                        "src": "/images/progress-sitefinity-logo.svg",
+                        "altText": "SItefinity Icon"
                     }
                 }
             ]
