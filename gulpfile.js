@@ -8,6 +8,18 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var htmlhint = require('gulp-htmlhint');
 
+var filesToMove = [
+        './bootstrap/dist/**/*.*',
+        './jquery/dist/**/*.*'
+    ];
+
+gulp.task('move', [], function(){
+  // the base option sets the relative root for the set of files,
+  // preserving the folder structure
+  gulp.src(filesToMove, { base: './node_modules' })
+  .pipe(gulp.dest('./public/lib'));
+});
+
 gulp.task('serve', ['css'], function(){
     browserSync.init({
         server: {
