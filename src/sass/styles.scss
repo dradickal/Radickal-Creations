@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.topic {
+    background-color: #cccccc;
+}
+
+.topic-skills {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.skill {
+    width: 20%;
+}
+.skill-icon {
+    width: 100%;
+}
