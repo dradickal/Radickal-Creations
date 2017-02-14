@@ -93,7 +93,7 @@
                 {
                     "name": "jQuery",
                     "logo": {
-                        "src": "/images/JQuery_logo.svg",
+                        "src": "/images/JQuery_logo.1.svg",
                         "altText": "SASS Icon"
                     }
                 },
@@ -107,7 +107,7 @@
                 {
                     "name": "node.js",
                     "logo": {
-                        "src": "/images/Node.js_logo.svg",
+                        "src": "/images/Node.js_logo.1.svg",
                         "altText": "node.js Icon"
                     }
                 },
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "name": "Tools, API's and Content Management",
+            "name": "Tools, APIs and Content Management Systems",
             "skills": [
                 {
                     "name": "Gulp",
@@ -182,7 +182,7 @@
                 {
                     "name": "JW Player",
                     "logo": {
-                        "src": "/images/jw-player.svg",
+                        "src": "/images/jw-player.1.svg",
                         "altText": "JW Player Icon"
                     }
                 },
@@ -210,14 +210,14 @@
                 {
                     "name": "Umbraco",
                     "logo": {
-                        "src": "/images/logo-umbraco-rocket.svg",
+                        "src": "/images/logo-umbraco-rocket.1.svg",
                         "altText": "Umbraco Icon"
                     }
                 },
                 {
                     "name": "Sitefinity",
                     "logo": {
-                        "src": "/images/progress-sitefinity-logo.svg",
+                        "src": "/images/progress-sitefinity-logo.1.svg",
                         "altText": "SItefinity Icon"
                     }
                 }
