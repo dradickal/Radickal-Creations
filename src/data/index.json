@@ -231,15 +231,15 @@
     "highlights": [
         {
             "name": "Objective",
-            "text": "To play an integral part in a well-structured team that will challenge me to expand my knowledge and experience in front-end environments. I am looking to grow my skills with tools such as SASS, MVC/MVVM frameworks, and node.js."
+            "text": "<p>To play an integral part in a well-structured team that will challenge me to expand my knowledge and experience in front-end environments. I am looking to grow my skills with tools such as SASS, MVC/MVVM frameworks, and node.js.</p>"
         },
         {
             "name": "IE Bug",
-            "text": "While using javascript to manipulate a select input, I discovered the incorrect DOM Element was being returned from Internet Explorer. Microsoft <a href='https://t.co/vaS8INJ4Pa'>confirmed my results</a> and implemented a fix in thier next update of IE Edge."
+            "text": "<p>While using javascript to manipulate a select input, I discovered the incorrect DOM Element was being returned from Internet Explorer. Microsoft <a href='https://t.co/vaS8INJ4Pa'>confirmed my results</a> and implemented a fix in thier next update of IE Edge.</p>"
         },
         {
             "name": "Udemy Training",
-            "text": "Learning can never stop when you are a developer. I enjoy using Udemy to learn new skills, and have completed the following courses over the past year: <ul><li>JavaScript: Understanding the Weird Parts – Anthony Alicea</li><li>AngularJS for the Real World, by Alessandro Russo</li><li>AngularJS Jumpstart, by Dan Wahlin</li>"
+            "text": "<p>Learning can never stop when you are a developer. I enjoy using Udemy to learn new skills, and have completed the following courses over the past year:</p> <ul><li><span class='course'>JavaScript: Understanding the Weird Parts</span>, by Anthony Alicea</li><li><span class='course'>AngularJS for the Real World</span>, by Alessandro Russo</li><li><span class='course'>AngularJS Jumpstart</span>, by Dan Wahlin</li></ul>"
         }
     ]
 }
