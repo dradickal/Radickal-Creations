@@ -4,6 +4,10 @@
         "src": "#",
         "altText": "RKC - Radickal Creations"
     },
+    "header": {
+        "title": "David Radick",
+        "content": "I am a Front-End Developer with more than five years of experience, currently at Leading Real Estate Companies of the World, a global network of independant real estate brokers. My work there has involved the creation and support of several member facing tools including a central communication site, a customizable Learning Management System, and a robust member search site."
+    },
     "topics": [
         {
             "name": "Languages and Software",
