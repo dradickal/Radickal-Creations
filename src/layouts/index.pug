@@ -8,6 +8,14 @@ block body
     header
         h1.header-title #{model.header.title}
         p.header-content #{model.header.content}
+        ul
+            each profile in model.header.profiles
+                li 
+                    a(href=profile.url)
+                        i(class="fa " + profile.icon, aria-hidden="true")
+                        span #{profile.name}
+
+                
     main
         div.hero
 

@@ -6,7 +6,39 @@
     },
     "header": {
         "title": "David Radick",
-        "content": "I am a Front-End Developer with more than five years of experience, currently working at Leading Real Estate Companies of the World, a global network of independant real estate brokers. My work there has involved the creation and support of several member facing tools including a central communication and resources site, a customizable Learning Management System, and a robust member search site."
+        "content": "I am a Front-End Developer with more than five years of experience, currently working at Leading Real Estate Companies of the World, a global network of independant real estate brokers. My work there has involved the creation and support of several member facing tools including a central communication and resources site, a customizable Learning Management System, and a robust member search site.",
+        "profiles": [
+            {
+                "name": "LinkedIn",
+                "icon": "fa-linkedin",
+                "url": "https://www.linkedin.com/in/dradick"
+            },
+            {
+                "name": "Twitter",
+                "icon": "fa-twitter",
+                "url": "https://twitter.com/dradickal"
+            },
+            {
+                "name": "GitHub",
+                "icon": "fa-github",
+                "url": "https://github.com/dradickal"
+            },
+            {
+                "name": "CodePen",
+                "icon": "fa-codepen",
+                "url": "http://codepen.io/dradickal/"
+            },
+            {
+                "name": "StackOverflow",
+                "icon": "fa-stack-overflow",
+                "url": "http://stackoverflow.com/users/4276674/david-radick"
+            },
+            {
+                "name": "Email",
+                "icon": "fa-envelope-o",
+                "url": "mailto:dradick@radickalcreations.com"
+            }
+        ]    
     },
     "topics": [
         {
