@@ -12,10 +12,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
 header {
-  padding: 2rem 0; }
+  padding: 2rem 0.6rem; }
+
+.header-content {
+  padding-left: 1rem; }
+
+.header-profiles {
+  padding: 0 2rem;
+  list-style: none; }
+
+.header-profiles:after {
+  content: '';
+  clear: both;
+  display: table;
+  width: 0;
+  height: 0; }
+
+.header-profile {
+  float: left;
+  width: 48%;
+  text-align: center;
+  padding: 0.25rem 0.4rem;
+  border: 1px solid;
+  margin: 1%; }
 
 .topic {
-  background-color: #cccccc;
   padding: 1rem 0; }
 
 .topic-name {
@@ -44,6 +65,7 @@ header {
   font-weight: 400; }
 
 .highlight {
+  background-color: #cccccc;
   padding: 2rem 0; }
 
 .highlight-name {
