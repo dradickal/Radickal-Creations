@@ -1,0 +1,35 @@
+@mixin bp($name) {
+    @if $name == sm {
+        @media only screen and (min-width: 600px) {
+            @content;
+        }
+    }
+    @else if $name == med {
+        @media only screen and (min-width: 900px) {
+            @content;
+        }
+    }
+    @else if $name == lg {
+        @media only screen and (min-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+@mixin min($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin clear() {
+    &:after {
+        content: '';
+        clear: both;
+        display: table;
+        width: 0;
+        height: 0;
+    }
+}
+
+
