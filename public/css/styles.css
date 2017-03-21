@@ -17,7 +17,12 @@ a {
     color: #414ba6; }
 
 header {
-  padding: 2rem 0.6rem; }
+  padding: 0 0.6rem 2rem; }
+
+.header-photo {
+  display: block;
+  width: 70%;
+  margin: 0 auto; }
 
 .header-content {
   padding-left: 1rem; }
