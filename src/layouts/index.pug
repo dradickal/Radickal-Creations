@@ -3,7 +3,7 @@ extends layout.pug
 block body
     header
         h1.header-title #{model.header.title}
-        img(src=model.header.photo.src, alt=model.header.photo.altText)
+        img.header-photo(src=model.header.photo.src, alt=model.header.photo.altText)
         p.header-content #{model.header.content}
         ul.header-profiles
             each profile in model.header.profiles
