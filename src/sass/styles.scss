@@ -16,6 +16,15 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
 
+a {
+    color: #000000;
+
+    &:hover {
+        color: #414ba6;
+    }
+}
+
+
 header {
     padding: 2rem 0.6rem;
 }
@@ -39,7 +48,6 @@ header {
 
     a {
         display: block;
-        color: #000000;
         padding: 0.25rem 0.4rem;
         border: 1px solid;
         text-decoration: none;
@@ -49,7 +57,6 @@ header {
         }
 
         &:hover {
-           color: #414ba6;
            background-color: #cccccc; 
         }
     }
@@ -100,7 +107,16 @@ header {
 .highlight-text {
     width: 90%;
     margin: 0 auto;
-    padding-left: 2rem;
+    
+    p {
+        padding-left: 1rem;
+        border-left: 8px solid #414ba6;
+        margin-left: 0.5rem;
+    }
+
+    ul {
+        padding-left: 55px;
+    }
 }
 
 .highlight { 
