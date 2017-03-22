@@ -1,9 +1,10 @@
 section.topic
-    h1.topic-name #{topic.name}
-    div.topic-skills
-        each skill in topic.skills
-            div.skill
-                div.skill-block
-                    img.skill-icon(src=skill.logo.src, alt=skill.logo.altText)
-                div.skill-block
-                    h2.skill-title #{skill.name}
+    div.wrapper
+        h1.topic-name #{topic.name}
+        div.topic-skills
+            each skill in topic.skills
+                div.skill
+                    div.skill-block
+                        img.skill-icon(src=skill.logo.src, alt=skill.logo.altText)
+                    div.skill-block
+                        h2.skill-title #{skill.name}
