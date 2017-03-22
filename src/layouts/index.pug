@@ -2,15 +2,16 @@ extends layout.pug
 
 block body
     header
-        h1.header-title #{model.header.title}
-        img.header-photo(src=model.header.photo.src, alt=model.header.photo.altText)
-        p.header-content #{model.header.content}
-        ul.header-profiles
-            each profile in model.header.profiles
-                li.header-profile 
-                    a(href=profile.url)
-                        i(class="fa " + profile.icon, aria-hidden="true")
-                        span #{profile.name}
+        div.wrapper
+            h1.header-title #{model.header.title}
+            img.header-photo(src=model.header.photo.src, alt=model.header.photo.altText)
+            p.header-content #{model.header.content}
+            ul.header-profiles
+                each profile in model.header.profiles
+                    li.header-profile 
+                        a(href=profile.url)
+                            i(class="fa " + profile.icon, aria-hidden="true")
+                            span #{profile.name}
 
                 
     main
