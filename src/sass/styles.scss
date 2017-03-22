@@ -24,14 +24,34 @@ a {
     }
 }
 
+.wrapper {
+    @include bp('sm') {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include bp('lg') {
+        width: 65%;
+    }
+}
+
 header {
     padding: 0 0.6rem 2rem;
 }
 
 .header-photo {
     display: block;
-    width: 70%;
+    height: 60vw;
     margin: 0 auto;
+
+    @include bp('sm') {
+        height:  40vw;
+    }
+
+    @include bp('lg') {
+        height:  25vw;
+    }
 }
 
 .header-content {
@@ -67,13 +87,7 @@ header {
     }
 }
 
-.wrapper {
-    @include bp('sm') {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+
 
 .topic {
     padding: 1rem 0;
