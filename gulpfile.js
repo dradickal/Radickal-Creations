@@ -1,24 +1,8 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var rename = require('gulp-rename');
 var plumber = require('gulp-plumber');
-var jade = require('gulp-jade');
 var sass = require('gulp-sass');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
 var htmlhint = require('gulp-htmlhint');
-
-var filesToMove = [
-        './bootstrap/dist/**/*.*',
-        './jquery/dist/**/*.*'
-    ];
-
-gulp.task('move', [], function(){
-  // the base option sets the relative root for the set of files,
-  // preserving the folder structure
-  gulp.src(filesToMove, { base: './node_modules' })
-  .pipe(gulp.dest('./public/lib'));
-});
 
 gulp.task('serve', ['css'], function(){
     browserSync.init({
@@ -31,15 +15,6 @@ gulp.task('serve', ['css'], function(){
     gulp.watch(['./public/**/*.html', './public/**/*.js']).on('change', browserSync.reload);
 });
 
-gulp.task('jade', function(){
-  gulp.src('./src/jade/**/*.jade')
-    .pipe(plumber())
-    .pipe(jade({
-      pretty:true
-    }))
-    .pipe(gulp.dest('./public/'));
-});
-
 gulp.task('css', function() {
     gulp.src('./src/sass/**/*.scss')
       .pipe(plumber())
@@ -48,24 +23,15 @@ gulp.task('css', function() {
       .pipe(browserSync.stream());
 });
 
-gulp.task('js', function() {
-   return gulp.src('./src/js/**/*.js')
-      .pipe(plumber())
-      .pipe(concat('site.js'))
-      .pipe(gulp.dest('./public/js'))
-      .pipe(uglify())
-      .pipe(rename({suffix: '.min'}))
-      .pipe(gulp.dest('./public/js'));
-});
-
 gulp.task('htmlhint', function() {
   return gulp.src('./public/**/*.html')
    .pipe(plumber())
-   .pipe(htmlhint());
+   .pipe(htmlhint())
+   .pipe(htmlhint.reporter());
+
 });
 
 gulp.task('default', ['serve'], function() {
-  //gulp.watch('./src/jade/**/*.jade', ['jade']);
-  //gulp.watch('./src/js/**/*.js', ['js'])
-  //gulp.watch('./public/**/*.html', ['htmlhint']);
+  // htmlhint does not work well since pug depricated pretty-print. All html is printed for each error.
+  // gulp.watch('./public/**/*.html', ['htmlhint']);
 });
