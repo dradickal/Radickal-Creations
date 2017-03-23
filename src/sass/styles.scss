@@ -1,12 +1,17 @@
 @import 'mixins/_base.scss';
 
+$background-light: #ffffff;
+$background-dark: #cccccc;
+$text-color: #000000;
+$accent-color: #414ba6;
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Chivo', sans-serif;
-    background-color: #ffffff;
+    background-color: $background-light;
     width: 100%;
     margin: 0;
 }
@@ -17,18 +22,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-    color: #000000;
+    color: $text-color;
 
     &:hover {
-        color: #414ba6;
+        color: $accent-color;
     }
 }
 
 .wrapper {
     @include bp('sm') {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+       @include center-block(80%);
     }
 
     @include bp('lg') {
@@ -97,7 +100,7 @@ header {
     display: inline-block;
     font-size: 1.8em;
     margin: 0 0 1.5rem 0.6rem;
-    border-bottom: 6px solid #414ba6;
+    border-bottom: 6px solid $accent-color;
 }
 
 .topic-skills {
@@ -106,9 +109,7 @@ header {
     margin-top: 1.5rem;
 
     @include bp("sm") {
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto; 
+       @include center-block(85%); 
     }
 }
 
@@ -129,7 +130,7 @@ header {
 }
 
 .highlight {
-    background-color: #cccccc;
+    background-color: $background-dark;
     padding: 2rem 0;
 }
 
@@ -144,7 +145,7 @@ header {
     
     p {
         padding-left: 1rem;
-        border-left: 8px solid #414ba6;
+        border-left: 8px solid $accent-color;
         margin-left: 0.5rem;
     }
 
