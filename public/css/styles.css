@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Chivo', sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700; }
+
+a {
+  color: #000000; }
+  a:hover {
+    color: #414ba6; }
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 65%; } }
+
+header {
+  padding: 0 0.6rem 2rem; }
+
+.header-photo {
+  display: block;
+  height: 60vw;
+  margin: 0 auto; }
+  @media only screen and (min-width: 600px) {
+    .header-photo {
+      height: 40vw; } }
+  @media only screen and (min-width: 1200px) {
+    .header-photo {
+      height: 25vw; } }
+
+.header-content {
+  padding-left: 1rem; }
+
+.header-profiles {
+  padding: 0 2rem;
+  list-style: none; }
+  .header-profiles:after {
+    content: '';
+    clear: both;
+    display: table;
+    width: 0;
+    height: 0; }
+
+.header-profile {
+  float: left;
+  width: 48%;
+  text-align: center;
+  margin: 1%; }
+  .header-profile a {
+    display: block;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid;
+    text-decoration: none; }
+    .header-profile a span {
+      padding-left: 5px; }
+    .header-profile a:hover {
+      background-color: #cccccc; }
+
+.topic {
+  padding: 1rem 0; }
+
+.topic-name {
+  display: inline-block;
+  font-size: 1.8em;
+  margin: 0 0 1.5rem 0.6rem;
+  border-bottom: 6px solid #414ba6; }
+
+.topic-skills {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 1.5rem; }
+  @media only screen and (min-width: 600px) {
+    .topic-skills {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.skill {
+  width: calc(100% / 3); }
+
+.skill-block {
+  text-align: center;
+  padding: 0 3%; }
+
+.skill-icon {
+  width: 75%;
+  padding: 0 12.5%; }
+
+.skill-title {
+  font-size: 1.3em;
+  font-weight: 400; }
+
+.highlight {
+  background-color: #cccccc;
+  padding: 2rem 0; }
+
+.highlight-name {
+  font-size: 1.7em;
+  margin: 0 0 1rem 0.6rem; }
+
+.highlight-text {
+  width: 90%;
+  margin: 0 auto; }
+  .highlight-text p {
+    padding-left: 1rem;
+    border-left: 8px solid #414ba6;
+    margin-left: 0.5rem; }
+  .highlight-text ul {
+    padding-left: 55px; }
+
+.highlight li {
+  margin-bottom: 0.5rem; }
+
+.highlight .course {
+  font-style: italic; }

@@ -1,0 +1,281 @@
+{
+    "title": "Radickal Creations",
+    "logo": {
+        "src": "#",
+        "altText": "RKC - Radickal Creations"
+    },
+    "header": {
+        "title": "David Radick",
+        "content": "I am a Front-End Developer with more than five years of experience, currently working at Leading Real Estate Companies of the World, a global network of independant real estate brokers. My work there has involved the creation and support of several member facing tools including a central communication and resources site, a customizable Learning Management System, and a robust member search site.",
+        "photo": {
+            "src": "/images/headshot.jpg",
+            "altText": "Photo of David Radick"
+        },
+        "profiles": [
+            {
+                "name": "LinkedIn",
+                "icon": "fa-linkedin",
+                "url": "https://www.linkedin.com/in/dradick"
+            },
+            {
+                "name": "Twitter",
+                "icon": "fa-twitter",
+                "url": "https://twitter.com/dradickal"
+            },
+            {
+                "name": "GitHub",
+                "icon": "fa-github",
+                "url": "https://github.com/dradickal"
+            },
+            {
+                "name": "CodePen",
+                "icon": "fa-codepen",
+                "url": "http://codepen.io/dradickal/"
+            },
+            {
+                "name": "StackOverflow",
+                "icon": "fa-stack-overflow",
+                "url": "http://stackoverflow.com/users/4276674/david-radick"
+            },
+            {
+                "name": "Email",
+                "icon": "fa-envelope-o",
+                "url": "mailto:dradick@radickalcreations.com"
+            }
+        ]    
+    },
+    "topics": [
+        {
+            "name": "Languages and Software",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "logo": {
+                        "src": "/images/HTML5_Logo.svg",
+                        "altText": "HTML Icon"
+                    }
+                },
+                {
+                    "name": "CSS",
+                    "logo": {
+                        "src": "/images/CSS3_Logo.svg",
+                        "altText": "CSS Icon"
+                    }
+                },
+                {
+                    "name": "JavaScript",
+                    "logo": {
+                        "src": "/images/js.svg",
+                        "altText": "JavaScript Icon"
+                    }
+                },
+                {
+                    "name": "XML",
+                    "logo": {
+                        "src": "/images/xml.svg",
+                        "altText": "XML Icon"
+                    }
+                },
+                {
+                    "name": "Photoshop",
+                    "logo": {
+                        "src": "/images/Adobe_Photoshop_CC_icon.svg",
+                        "altText": "Photoshop Icon"
+                    }
+                },
+                {
+                    "name": "Illustrator",
+                    "logo": {
+                        "src": "/images/Adobe_Illustrator_CC_icon.svg",
+                        "altText": "Illustrator Icon"
+                    }
+                },
+                {
+                    "name": "PHP",
+                    "logo": {
+                        "src": "/images/PHP-logo.svg",
+                        "altText": "PHP Icon"
+                    }
+                },
+                {
+                    "name": "SQL",
+                    "logo": {
+                        "src": "/images/database.svg",
+                        "altText": "SQL Icon"
+                    }
+                },
+                {
+                    "name": ".NET/C#",
+                    "logo": {
+                        "src": "/images/csharp.svg",
+                        "altText": "C Sharp Icon"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Frameworks and Templating",
+            "skills": [
+                {
+                    "name": "SASS",
+                    "logo": {
+                        "src": "/images/Sass_Logo_Color.svg",
+                        "altText": "SASS Icon"
+                    }
+                },
+                {
+                    "name": "Bootstrap",
+                    "logo": {
+                        "src": "/images/Bootstrap_Logo.svg",
+                        "altText": "Bootsratp Icon"
+                    }
+                },
+                {
+                    "name": "jQuery",
+                    "logo": {
+                        "src": "/images/JQuery_logo.1.svg",
+                        "altText": "SASS Icon"
+                    }
+                },
+                {
+                    "name": "AngularJS 1.x",
+                    "logo": {
+                        "src": "/images/angular.svg",
+                        "altText": "AngularJS Icon"
+                    }
+                },
+                {
+                    "name": "node.js",
+                    "logo": {
+                        "src": "/images/Node.js_logo.1.svg",
+                        "altText": "node.js Icon"
+                    }
+                },
+                {
+                    "name": "Laravel",
+                    "logo": {
+                        "src": "/images/laravel-seeklogo.com.svg",
+                        "altText": "Laravel Icon"
+                    }
+                },
+                {
+                    "name": "XSLT",
+                    "logo": {
+                        "src": "/images/xml.svg",
+                        "altText": "XML Icon"
+                    }
+                },
+                {
+                    "name": "Razor",
+                    "logo": {
+                        "src": "/images/csharp.svg",
+                        "altText": "C Sharp Icon"
+                    }
+                },
+                {
+                    "name": "Blade",
+                    "logo": {
+                        "src": "/images/laravel-seeklogo.com.svg",
+                        "altText": "Laravel Icon"
+                    }
+                },
+                {
+                    "name": "Pug (fka. Jade)",
+                    "logo": {
+                        "src": "/images/pug-js.svg",
+                        "altText": "Pug Icon"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tools, APIs and CMSs",
+            "skills": [
+                {
+                    "name": "Gulp",
+                    "logo": {
+                        "src": "/images/gulp.svg",
+                        "altText": "Gulp Icon"
+                    }
+                },
+                {
+                    "name": "git",
+                    "logo": {
+                        "src": "/images/Git_icon.svg",
+                        "altText": "git Icon"
+                    }
+                },
+                {
+                    "name": "VSTS",
+                    "logo": {
+                        "src": "/images/brand-visualstudio.svg",
+                        "altText": "Visual Studio Icon"
+                    }
+                },
+                {
+                    "name": "Google Maps",
+                    "logo": {
+                        "src": "/images/Google_Maps_Logo.svg",
+                        "altText": "Google Maps Icon"
+                    }
+                },
+                {
+                    "name": "JW Player",
+                    "logo": {
+                        "src": "/images/jw-player.1.svg",
+                        "altText": "JW Player Icon"
+                    }
+                },
+                {
+                    "name": "SCORM 1.2",
+                    "logo": {
+                        "src": "/images/SCORM.svg",
+                        "altText": "SCORM Icon"
+                    }
+                },
+                {
+                    "name": "Amazon S3",
+                    "logo": {
+                        "src": "/images/Storage_AmazonS3.svg",
+                        "altText": "Amazon S3 Icon"
+                    }
+                },
+                {
+                    "name": "Amazon Cloudfront",
+                    "logo": {
+                        "src": "/images/NetworkingContentDelivery_AmazonCloudFront.svg",
+                        "altText": "Amazon Cloudfront Icon"
+                    }
+                },
+                {
+                    "name": "Umbraco",
+                    "logo": {
+                        "src": "/images/logo-umbraco-rocket.1.svg",
+                        "altText": "Umbraco Icon"
+                    }
+                },
+                {
+                    "name": "Sitefinity",
+                    "logo": {
+                        "src": "/images/progress-sitefinity-logo.1.svg",
+                        "altText": "SItefinity Icon"
+                    }
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        {
+            "name": "Objective",
+            "text": "<p>To play an integral part in a well-structured team that will challenge me to expand my knowledge and experience in front-end environments. I am looking to grow my skills with tools such as SASS, MVC/MVVM frameworks, and node.js.</p>"
+        },
+        {
+            "name": "IE Bug",
+            "text": "<p>While using javascript to manipulate a select input, I discovered the incorrect DOM Element was being returned from Internet Explorer. Microsoft <a href='https://t.co/vaS8INJ4Pa'>confirmed my results</a> and implemented a fix in thier next update of IE Edge.</p>"
+        },
+        {
+            "name": "Udemy Training",
+            "text": "<p>Learning can never stop when you are a developer. I enjoy using Udemy to learn new skills, and have completed the following courses over the past year:</p> <ul><li><span class='course'>JavaScript: Understanding the Weird Parts</span>, by Anthony Alicea</li><li><span class='course'>AngularJS for the Real World</span>, by Alessandro Russo</li><li><span class='course'>AngularJS Jumpstart</span>, by Dan Wahlin</li></ul>"
+        }
+    ]
+}
