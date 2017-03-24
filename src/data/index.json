@@ -126,7 +126,7 @@
                 {
                     "name": "Bootstrap",
                     "logo": {
-                        "src": "/images/Bootstrap_Logo.svg",
+                        "src": "/images/Bootstrap_logo.svg",
                         "altText": "Bootsratp Icon"
                     }
                 },
